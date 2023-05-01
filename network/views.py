@@ -205,7 +205,7 @@ def register(request):
                 else:
                     first_name = first_name + name_list[i] + " "
         else:
-            first_name = name
+            first_name = name[0]
             last_name = ""
 
         bio = request.POST["bio"]
