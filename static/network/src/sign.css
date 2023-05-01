@@ -1,0 +1,142 @@
+.login-header{
+    text-align:center;
+    padding-bottom:15px;
+    font-size:20px;
+    font-weight:700;
+}
+.font-1{
+    font-size:60px;
+    font-weight:1000;
+    color:rgb(29, 155, 240);
+    font-family:helvetica;
+}
+.font-2{
+    font-size:28px;
+    font-family:helvetica;
+}
+.register{
+    margin-top:12px;
+    border: 1px solid white; 
+    border-radius:7px;
+    padding:10px;
+    text-align:center;
+    font-size:15px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2)
+}
+.main-content{
+    margin-top:100px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.banner{
+    display:flex;
+    justify-content:center;
+    width:500px;
+}
+.login-group{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+}
+.update-group{
+    display:flex;
+    flex-direction:column;
+    width:600px;
+}
+.login{
+    border: 1px solid white; 
+    border-radius:7px;
+    padding:30px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2)
+}
+.setup{
+    display:flex;
+    flex-direction:column;
+    border: 0px solid white; 
+    border-radius:7px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.frm-input-1{
+    margin-top:17px;
+    margin-bottom:17px;
+
+}
+.prof-file-section{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding:25px;
+}
+.profile-media{
+    padding:25px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+body{
+    background-color: #f0f2f5 !important;
+}
+
+.flex-class {
+    display: flex;
+    justify-content: center;
+}
+    
+@media (max-width: 600px) {
+    .main-content{
+        margin-top:0px;
+    }
+    .update-group{
+        display:flex;
+        flex-direction:column;
+        width:100vw;
+    }
+    .login-header{
+        padding-top:15px;
+    }
+}
+@media (max-width: 500px) {
+    body{
+        background-color: white !important;
+    }
+    main{
+        width: auto;
+    }
+    .main-content{
+        width: auto;
+    }
+    .banner{
+        margin-top:20px;
+        display:flex;
+        justify-content:center;
+        width:auto;
+    }
+    .login-group{
+        padding-left:40px;
+        padding-right:40px;
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+    .login{
+        border: 0px solid white; 
+        border-radius:0px;
+        padding:0px;
+        background: white;
+        box-shadow: 0 0px 0px rgba(0,0,0,0.2)
+    }
+    .register{
+        margin-top:12px;
+        border: 0px solid white; 
+        border-radius:0px;
+        padding:10px;
+        text-align:center;
+        font-size:15px;
+        background: white;
+        box-shadow: 0 0px 0px rgba(0,0,0,0.2)
+    }
+}
