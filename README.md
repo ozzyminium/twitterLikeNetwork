@@ -1,5 +1,5 @@
 # TwitterLikeNetwork
-**TwitterlikeNetwork** is a responsive web application that is a simple imitation of **twitter** with much less features. The project was deployed to **AWS** and its functionality can be tested at [pasticcio.org](https://pasticcio.org/)
+**TwitterlikeNetwork** is a responsive web application that is a simple imitation of **twitter** with much less features.
 # Tech Stack
 - Django
 - React
