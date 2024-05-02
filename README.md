@@ -1,5 +1,5 @@
 # TwitterLikeNetwork
-**TwitterlikeNetwork** is a responsive web application that is a simple imitation of **twitter** with much less features.
+**TwitterlikeNetwork** is a responsive web application that mimics **twitter**.
 # Tech Stack
 - Django
 - React
